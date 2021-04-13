@@ -6,6 +6,7 @@ import InLIneIfLogicalAndOperator from "./Conditional Rendering/InLIneIfLogicalA
 import MainElementVariable from "./Conditional Rendering/MainElementVariable";
 import PreventComponentFromRendering from "./Conditional Rendering/PreventComponentFromRendering";
 import FileInputTag from "./Form/FileInputTag";
+import HandlingMultipleInput from "./Form/HandlingMultipleInput";
 import InputForm from "./Form/InputForm";
 import SelectOption from "./Form/SelectOption";
 import TextArea from "./Form/TextArea";
@@ -72,6 +73,7 @@ function App() {
         <TextArea/>
         <SelectOption/>
         <FileInputTag/>
+        <HandlingMultipleInput/>
     </div>
   );
 }
