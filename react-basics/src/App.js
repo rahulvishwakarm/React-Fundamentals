@@ -9,6 +9,7 @@ import ArgumentPassingInEvenetHandlers from "./HandlingEvents/ArgumentPassingInE
 import EventHandler from "./HandlingEvents/EventHandler";
 import Toogle from "./HandlingEvents/Toogle";
 import JSX from "./JSX Introduction/JSX";
+import UsingMap from "./List and Keys/UsingMap";
 import RenderElement from "./Rendering Element/RenderElement";
 import Rendering from './State and LifeCycle/Rendering';
 
@@ -45,6 +46,9 @@ function App() {
 
         {/* Prevent Component from rendering */}
         <PreventComponentFromRendering/>
+
+        {/* List and Keys */}
+        <UsingMap/>
     </div>
   );
 }
