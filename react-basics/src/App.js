@@ -6,6 +6,7 @@ import InLIneIfLogicalAndOperator from "./Conditional Rendering/InLIneIfLogicalA
 import MainElementVariable from "./Conditional Rendering/MainElementVariable";
 import PreventComponentFromRendering from "./Conditional Rendering/PreventComponentFromRendering";
 import InputForm from "./Form/InputForm";
+import SelectOption from "./Form/SelectOption";
 import TextArea from "./Form/TextArea";
 import ArgumentPassingInEvenetHandlers from "./HandlingEvents/ArgumentPassingInEvenetHandlers";
 import EventHandler from "./HandlingEvents/EventHandler";
@@ -68,6 +69,7 @@ function App() {
         {/* Input Form in Form */}
         <InputForm/>
         <TextArea/>
+        <SelectOption/>
     </div>
   );
 }
