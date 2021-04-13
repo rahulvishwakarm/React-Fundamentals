@@ -4,6 +4,7 @@ import FuncComponent from "./Component and Props/FuncComponent";
 import ConditionalRendering1 from "./Conditional Rendering/ConditionalRendering1";
 import InLIneIfLogicalAndOperator from "./Conditional Rendering/InLIneIfLogicalAndOperator";
 import MainElementVariable from "./Conditional Rendering/MainElementVariable";
+import PreventComponentFromRendering from "./Conditional Rendering/PreventComponentFromRendering";
 import ArgumentPassingInEvenetHandlers from "./HandlingEvents/ArgumentPassingInEvenetHandlers";
 import EventHandler from "./HandlingEvents/EventHandler";
 import Toogle from "./HandlingEvents/Toogle";
@@ -41,6 +42,9 @@ function App() {
 
         {/* InlIn Logical If */}
         <InLIneIfLogicalAndOperator unreadMessage={message}/>
+
+        {/* Prevent Component from rendering */}
+        <PreventComponentFromRendering/>
     </div>
   );
 }
