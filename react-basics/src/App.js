@@ -5,6 +5,7 @@ import ConditionalRendering1 from "./Conditional Rendering/ConditionalRendering1
 import InLIneIfLogicalAndOperator from "./Conditional Rendering/InLIneIfLogicalAndOperator";
 import MainElementVariable from "./Conditional Rendering/MainElementVariable";
 import PreventComponentFromRendering from "./Conditional Rendering/PreventComponentFromRendering";
+import InputForm from "./Form/InputForm";
 import ArgumentPassingInEvenetHandlers from "./HandlingEvents/ArgumentPassingInEvenetHandlers";
 import EventHandler from "./HandlingEvents/EventHandler";
 import Toogle from "./HandlingEvents/Toogle";
@@ -62,6 +63,9 @@ function App() {
 
         {/* Keys */}
         <Keys/>
+
+        {/* Input Form in Form */}
+        <InputForm/>
     </div>
   );
 }
