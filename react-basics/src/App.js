@@ -10,6 +10,7 @@ import EventHandler from "./HandlingEvents/EventHandler";
 import Toogle from "./HandlingEvents/Toogle";
 import JSX from "./JSX Introduction/JSX";
 import BasicListCompoent from "./List and Keys/BasicListCompoent";
+import Keys from "./List and Keys/Keys";
 import RenderingMultipleComponent from "./List and Keys/RenderingMultipleComponent";
 import UsingMap from "./List and Keys/UsingMap";
 import RenderElement from "./Rendering Element/RenderElement";
@@ -58,6 +59,9 @@ function App() {
 
         {/* Basic List */}
         <BasicListCompoent numbers={numbers}/>
+
+        {/* Keys */}
+        <Keys/>
     </div>
   );
 }
