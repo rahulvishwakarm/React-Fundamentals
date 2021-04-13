@@ -1,6 +1,7 @@
 import ClassComponent from "./Component and Props/ClassComponent";
 import ExtractingComponent from "./Component and Props/ExtractingComponent";
 import FuncComponent from "./Component and Props/FuncComponent";
+import ArgumentPassingInEvenetHandlers from "./HandlingEvents/ArgumentPassingInEvenetHandlers";
 import EventHandler from "./HandlingEvents/EventHandler";
 import Toogle from "./HandlingEvents/Toogle";
 import JSX from "./JSX Introduction/JSX";
@@ -29,6 +30,7 @@ function App() {
         {/* Event Handlers */}
         <EventHandler/>
         <Toogle/>
+        <ArgumentPassingInEvenetHandlers/>
     </div>
   );
 }
