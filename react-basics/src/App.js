@@ -9,12 +9,15 @@ import ArgumentPassingInEvenetHandlers from "./HandlingEvents/ArgumentPassingInE
 import EventHandler from "./HandlingEvents/EventHandler";
 import Toogle from "./HandlingEvents/Toogle";
 import JSX from "./JSX Introduction/JSX";
+import BasicListCompoent from "./List and Keys/BasicListCompoent";
+import RenderingMultipleComponent from "./List and Keys/RenderingMultipleComponent";
 import UsingMap from "./List and Keys/UsingMap";
 import RenderElement from "./Rendering Element/RenderElement";
 import Rendering from './State and LifeCycle/Rendering';
 
 function App() {
     const message = ["React","Re: React","Re:Re"]
+    const numbers = [1,2,3,4,5]
   return (
     <div className="App">
 
@@ -49,6 +52,12 @@ function App() {
 
         {/* List and Keys */}
         <UsingMap/>
+
+        {/**Rendering Multiple Conponent */}
+        {/* <RenderingMultipleComponent/> */} 
+
+        {/* Basic List */}
+        <BasicListCompoent numbers={numbers}/>
     </div>
   );
 }
