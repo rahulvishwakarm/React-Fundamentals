@@ -1,6 +1,7 @@
 import ClassComponent from "./Component and Props/ClassComponent";
 import ExtractingComponent from "./Component and Props/ExtractingComponent";
 import FuncComponent from "./Component and Props/FuncComponent";
+import Containment from "./Composition Vs Inheritance/Containment";
 import ConditionalRendering1 from "./Conditional Rendering/ConditionalRendering1";
 import InLIneIfLogicalAndOperator from "./Conditional Rendering/InLIneIfLogicalAndOperator";
 import MainElementVariable from "./Conditional Rendering/MainElementVariable";
@@ -14,7 +15,7 @@ import ArgumentPassingInEvenetHandlers from "./HandlingEvents/ArgumentPassingInE
 import EventHandler from "./HandlingEvents/EventHandler";
 import Toogle from "./HandlingEvents/Toogle";
 import JSX from "./JSX Introduction/JSX";
-import CalculateTemparature from "./Lifting State Ups/CalculateTemperature";
+import CalculateTemparature from "./Lifting State Ups Boiling Point Estimate/CalculateTemperature";
 import BasicListCompoent from "./List and Keys/BasicListCompoent";
 import Keys from "./List and Keys/Keys";
 import RenderingMultipleComponent from "./List and Keys/RenderingMultipleComponent";
@@ -78,6 +79,8 @@ function App() {
 
         {/* Calculating Boiling Point */}
         <CalculateTemparature/>
+
+        <Containment/>
     </div>
   );
 }
