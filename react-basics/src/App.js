@@ -14,6 +14,7 @@ import ArgumentPassingInEvenetHandlers from "./HandlingEvents/ArgumentPassingInE
 import EventHandler from "./HandlingEvents/EventHandler";
 import Toogle from "./HandlingEvents/Toogle";
 import JSX from "./JSX Introduction/JSX";
+import CalculateTemparature from "./Lifting State Ups/CalculateTemperature";
 import BasicListCompoent from "./List and Keys/BasicListCompoent";
 import Keys from "./List and Keys/Keys";
 import RenderingMultipleComponent from "./List and Keys/RenderingMultipleComponent";
@@ -74,6 +75,9 @@ function App() {
         <SelectOption/>
         <FileInputTag/>
         <HandlingMultipleInput/>
+
+        {/* Calculating Boiling Point */}
+        <CalculateTemparature/>
     </div>
   );
 }
