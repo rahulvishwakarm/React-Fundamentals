@@ -20,6 +20,7 @@ import BasicListCompoent from "./List and Keys/BasicListCompoent";
 import Keys from "./List and Keys/Keys";
 import RenderingMultipleComponent from "./List and Keys/RenderingMultipleComponent";
 import UsingMap from "./List and Keys/UsingMap";
+import SemanticHTML from "./React Advance/SemanticHTML";
 import RenderElement from "./Rendering Element/RenderElement";
 import Rendering from './State and LifeCycle/Rendering';
 
@@ -79,8 +80,10 @@ function App() {
 
         {/* Calculating Boiling Point */}
         <CalculateTemparature/>
-
         <Containment/>
+
+        {/* <SemanticHTML items={{term:1,description:"testing one"}}/> */}
+
     </div>
   );
 }
