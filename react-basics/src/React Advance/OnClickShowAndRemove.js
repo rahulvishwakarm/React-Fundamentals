@@ -15,7 +15,7 @@ class OnClickShowAndRemove extends Component {
             isOpen:!currentState.isOpen
         }))
     }
-    
+
     handleBlur() {
         this.timeOutId = setTimeout(()=>{
             this.setState({
@@ -31,7 +31,7 @@ class OnClickShowAndRemove extends Component {
     render() {
         return (
             <div onBlur={this.handleBlur} onFocus={this.handleFocus}>
-                <button onClick={this.onClickHandler} >Select the Option</button>
+                <button onClick={this.onClickHandler} >Click On Me to see option and click anwhere to hide option</button>
                 {this.state.isOpen && (
                         <ul>
                             <li>Option 1</li>

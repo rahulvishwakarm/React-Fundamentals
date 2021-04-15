@@ -34,7 +34,7 @@ class OnClickShowOption extends Component {
     render() {
         return (
             <div ref={this.toggleContainer}>
-                <button onClick={this.onClickHandler}>Select the Option</button>
+                <button onClick={this.onClickHandler}>Click on me to see option</button>
                 {this.state.isOpen && (
                         <ul>
                             <li>Option 1</li>

@@ -1,3 +1,4 @@
+import TestMath from "./Code Splitting/Bundling/TestMath";
 import ClassComponent from "./Component and Props/ClassComponent";
 import ExtractingComponent from "./Component and Props/ExtractingComponent";
 import FuncComponent from "./Component and Props/FuncComponent";
@@ -87,6 +88,9 @@ function App() {
         {/* <SemanticHTML items={{term:1,description:"testing one"}}/> */}
         <OnClickShowOption/>
         <OnClickShowAndRemove/>
+
+        {/* Bundling */}
+        <TestMath/>
     </div>
   );
 }
