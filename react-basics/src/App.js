@@ -1,4 +1,5 @@
 import TestMath from "./Code Splitting/Bundling/TestMath";
+import ImportBundleResult from "./Code Splitting/ImportBundling/ImpotBundleResult";
 import ClassComponent from "./Component and Props/ClassComponent";
 import ExtractingComponent from "./Component and Props/ExtractingComponent";
 import FuncComponent from "./Component and Props/FuncComponent";
@@ -91,6 +92,9 @@ function App() {
 
         {/* Bundling */}
         <TestMath/>
+
+        {/* Import Bundling */}
+        <ImportBundleResult/>
     </div>
   );
 }
