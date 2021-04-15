@@ -20,6 +20,7 @@ import BasicListCompoent from "./List and Keys/BasicListCompoent";
 import Keys from "./List and Keys/Keys";
 import RenderingMultipleComponent from "./List and Keys/RenderingMultipleComponent";
 import UsingMap from "./List and Keys/UsingMap";
+import OnClickShowAndRemove from "./React Advance/OnClickShowAndRemove";
 import OnClickShowOption from "./React Advance/OnClickShowOption";
 import SemanticHTML from "./React Advance/SemanticHTML";
 import RenderElement from "./Rendering Element/RenderElement";
@@ -85,7 +86,7 @@ function App() {
 
         {/* <SemanticHTML items={{term:1,description:"testing one"}}/> */}
         <OnClickShowOption/>
-
+        <OnClickShowAndRemove/>
     </div>
   );
 }
