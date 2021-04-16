@@ -19,7 +19,7 @@ function InLIneIfLogicalAndOperator(props) {
                 </h2> 
             }
         </div>
-    )
+    );
 }
 
 

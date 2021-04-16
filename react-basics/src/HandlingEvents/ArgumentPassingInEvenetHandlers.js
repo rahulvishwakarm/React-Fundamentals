@@ -21,7 +21,7 @@ class ArgumentPassingInEvenetHandlers extends Component {
         return (
             <div>
                 <button onClick={this.deleteRow.bind(this)}>
-                    {deleteStatus==false ? "Delete Id":"Deleted"}
+                    {deleteStatus===false ? "Delete Id":"Deleted"}
                 </button>
             </div>
         )

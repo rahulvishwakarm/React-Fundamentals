@@ -34,7 +34,7 @@ class PreventComponentFromRendering extends Component {
                     {this.state.showWarning ? 'Hide':'Show'}
                 </button>
             </div>
-        )
+        );
     }
 }
 export default PreventComponentFromRendering;

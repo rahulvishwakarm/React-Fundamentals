@@ -1,6 +1,7 @@
 import TestMath from "./Code Splitting/Bundling/TestMath";
 import ImportBundleResult from "./Code Splitting/ImportBundling/ImpotBundleResult";
 import ReactLaxy from "./Code Splitting/React Lazy/ReactLaxy";
+import RouteBasedCodeSplit from "./Code Splitting/Route Based Code Spliting/RouteBasedCodeSplit";
 import ClassComponent from "./Component and Props/ClassComponent";
 import ExtractingComponent from "./Component and Props/ExtractingComponent";
 import FuncComponent from "./Component and Props/FuncComponent";
@@ -100,7 +101,7 @@ function App() {
         {/* React lazy */}
         <ReactLaxy/>
 
-        
+        <RouteBasedCodeSplit/>
     </div>
   );
 }
