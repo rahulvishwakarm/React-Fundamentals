@@ -101,6 +101,7 @@ function App() {
         {/* React lazy */}
         <ReactLaxy/>
 
+        {/**Routing From One Page to Another */}
         <RouteBasedCodeSplit/>
     </div>
   );
