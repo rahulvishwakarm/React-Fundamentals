@@ -1,5 +1,6 @@
 import TestMath from "./Code Splitting/Bundling/TestMath";
 import ImportBundleResult from "./Code Splitting/ImportBundling/ImpotBundleResult";
+import ImportDefaultComponent from "./Code Splitting/Named Export/ImportDefaultComponent";
 import ReactLaxy from "./Code Splitting/React Lazy/ReactLaxy";
 import RouteBasedCodeSplit from "./Code Splitting/Route Based Code Spliting/RouteBasedCodeSplit";
 import ClassComponent from "./Component and Props/ClassComponent";
@@ -103,6 +104,11 @@ function App() {
 
         {/**Routing From One Page to Another */}
         <RouteBasedCodeSplit/>
+
+        {/**IMporting Named Component by making it default */}
+        <ImportDefaultComponent/>
+
+        
     </div>
   );
 }
