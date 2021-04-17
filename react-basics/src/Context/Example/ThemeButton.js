@@ -10,7 +10,7 @@ class ThemeButton extends Component {
             <button
                 {...props}
                 style={{backgroundColor:theme.background,color:theme.foreground}}
-            >Theme Button</button>
+            />
         );
     }
 }
