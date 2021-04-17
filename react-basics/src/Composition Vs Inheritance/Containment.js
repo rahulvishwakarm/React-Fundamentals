@@ -15,9 +15,9 @@ function Containment() {
                 Welcome
             </h1>
             <p className="Dialog-message">
-                Thankyou for visiting our spacecraft! 
+                Thankyou for visiting our spacecraft!
             </p>
-        </FancyColor>   
+        </FancyColor>
     )
 }
 export default Containment;

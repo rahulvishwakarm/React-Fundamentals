@@ -11,6 +11,8 @@ import ConditionalRendering1 from "./Conditional Rendering/ConditionalRendering1
 import InLIneIfLogicalAndOperator from "./Conditional Rendering/InLIneIfLogicalAndOperator";
 import MainElementVariable from "./Conditional Rendering/MainElementVariable";
 import PreventComponentFromRendering from "./Conditional Rendering/PreventComponentFromRendering";
+import HowtoUseTheContext from "./Context/HowtoUseTheContext";
+import WhyToUseTheContext from "./Context/WhyToUseTheContext";
 import FileInputTag from "./Form/FileInputTag";
 import HandlingMultipleInput from "./Form/HandlingMultipleInput";
 import InputForm from "./Form/InputForm";
@@ -108,7 +110,9 @@ function App() {
         {/**IMporting Named Component by making it default */}
         <ImportDefaultComponent/>
 
-        
+        {/**Context */}
+        <WhyToUseTheContext />
+        <HowtoUseTheContext/>
     </div>
   );
 }
