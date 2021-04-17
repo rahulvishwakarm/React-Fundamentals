@@ -13,6 +13,7 @@ import MainElementVariable from "./Conditional Rendering/MainElementVariable";
 import PreventComponentFromRendering from "./Conditional Rendering/PreventComponentFromRendering";
 import API from "./Context/API";
 import BeforeYouUseContext from "./Context/BeforeYouUseContext";
+import ThemeButton from "./Context/Example/ThemeButton";
 import HowtoUseTheContext from "./Context/HowtoUseTheContext";
 import WhyToUseTheContext from "./Context/WhyToUseTheContext";
 import FileInputTag from "./Form/FileInputTag";
@@ -116,7 +117,11 @@ function App() {
         <WhyToUseTheContext />
         <HowtoUseTheContext/>
         {/* <BeforeYouUseContext/> */} {/**Commented because it will throw an error since few component not defined*/}
-        <API/>
+        {/* <API/> */}
+
+
+        {/* Example Context */}
+        
     </div>
   );
 }
