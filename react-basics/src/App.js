@@ -11,6 +11,7 @@ import ConditionalRendering1 from "./Conditional Rendering/ConditionalRendering1
 import InLIneIfLogicalAndOperator from "./Conditional Rendering/InLIneIfLogicalAndOperator";
 import MainElementVariable from "./Conditional Rendering/MainElementVariable";
 import PreventComponentFromRendering from "./Conditional Rendering/PreventComponentFromRendering";
+import API from "./Context/API";
 import BeforeYouUseContext from "./Context/BeforeYouUseContext";
 import HowtoUseTheContext from "./Context/HowtoUseTheContext";
 import WhyToUseTheContext from "./Context/WhyToUseTheContext";
@@ -115,7 +116,7 @@ function App() {
         <WhyToUseTheContext />
         <HowtoUseTheContext/>
         {/* <BeforeYouUseContext/> */} {/**Commented because it will throw an error since few component not defined*/}
-        
+        <API/>
     </div>
   );
 }
