@@ -11,6 +11,7 @@ import ConditionalRendering1 from "./Conditional Rendering/ConditionalRendering1
 import InLIneIfLogicalAndOperator from "./Conditional Rendering/InLIneIfLogicalAndOperator";
 import MainElementVariable from "./Conditional Rendering/MainElementVariable";
 import PreventComponentFromRendering from "./Conditional Rendering/PreventComponentFromRendering";
+import BeforeYouUseContext from "./Context/BeforeYouUseContext";
 import HowtoUseTheContext from "./Context/HowtoUseTheContext";
 import WhyToUseTheContext from "./Context/WhyToUseTheContext";
 import FileInputTag from "./Form/FileInputTag";
@@ -113,6 +114,8 @@ function App() {
         {/**Context */}
         <WhyToUseTheContext />
         <HowtoUseTheContext/>
+        {/* <BeforeYouUseContext/> */} {/**Commented because it will throw an error since few component not defined*/}
+        
     </div>
   );
 }

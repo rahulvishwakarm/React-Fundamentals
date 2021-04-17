@@ -7,7 +7,7 @@ import React, { Component } from 'react'
 
 class WhyToUseTheContext extends Component {
     render() {
-        return <Toolbar theme="dark" />
+        return <Toolbar theme="light" />
     }
 }
 
