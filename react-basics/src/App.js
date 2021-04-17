@@ -14,6 +14,7 @@ import PreventComponentFromRendering from "./Conditional Rendering/PreventCompon
 import API from "./Context/API";
 import BeforeYouUseContext from "./Context/BeforeYouUseContext";
 import ThemeButton from "./Context/Example/ThemeButton";
+import UsingThemeContextAndButton from "./Context/Example/UsingThemeContextAndButton";
 import HowtoUseTheContext from "./Context/HowtoUseTheContext";
 import WhyToUseTheContext from "./Context/WhyToUseTheContext";
 import FileInputTag from "./Form/FileInputTag";
@@ -121,7 +122,7 @@ function App() {
 
 
         {/* Example Context */}
-        
+        <UsingThemeContextAndButton/>
     </div>
   );
 }
