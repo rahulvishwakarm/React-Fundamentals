@@ -132,7 +132,7 @@ function App() {
 
         {/* Fragments */}
         {/* Example 1 */}
-        <FragmentDemo/>
+        <FragmentDemo />
 
         {/* Example 2 */}
         <Tables/>
