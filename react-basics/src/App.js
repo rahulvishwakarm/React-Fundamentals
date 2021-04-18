@@ -23,6 +23,7 @@ import InputForm from "./Form/InputForm";
 import SelectOption from "./Form/SelectOption";
 import TextArea from "./Form/TextArea";
 import FRPARENTINPUT from "./ForwadingRef/FRPARENTINPUT";
+import FragmentDemo from "./Fragments/FragmentDemo";
 import ArgumentPassingInEvenetHandlers from "./HandlingEvents/ArgumentPassingInEvenetHandlers";
 import EventHandler from "./HandlingEvents/EventHandler";
 import Toogle from "./HandlingEvents/Toogle";
@@ -127,6 +128,9 @@ function App() {
 
         {/**Forwarding Refs */}
         <FRPARENTINPUT/>
+
+        {/* Fragments */}
+        <FragmentDemo/>
     </div>
   );
 }
