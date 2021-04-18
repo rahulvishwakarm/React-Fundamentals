@@ -22,6 +22,7 @@ import HandlingMultipleInput from "./Form/HandlingMultipleInput";
 import InputForm from "./Form/InputForm";
 import SelectOption from "./Form/SelectOption";
 import TextArea from "./Form/TextArea";
+import FRPARENTINPUT from "./ForwadingRef/FRPARENTINPUT";
 import ArgumentPassingInEvenetHandlers from "./HandlingEvents/ArgumentPassingInEvenetHandlers";
 import EventHandler from "./HandlingEvents/EventHandler";
 import Toogle from "./HandlingEvents/Toogle";
@@ -123,6 +124,9 @@ function App() {
 
         {/* Example Context */}
         <UsingThemeContextAndButton/>
+
+        {/**Forwarding Refs */}
+        <FRPARENTINPUT/>
     </div>
   );
 }
