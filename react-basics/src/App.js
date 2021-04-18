@@ -24,6 +24,7 @@ import SelectOption from "./Form/SelectOption";
 import TextArea from "./Form/TextArea";
 import FRPARENTINPUT from "./ForwadingRef/FRPARENTINPUT";
 import FragmentDemo from "./Fragments/FragmentDemo";
+import Tables from "./Fragments/Tables";
 import ArgumentPassingInEvenetHandlers from "./HandlingEvents/ArgumentPassingInEvenetHandlers";
 import EventHandler from "./HandlingEvents/EventHandler";
 import Toogle from "./HandlingEvents/Toogle";
@@ -130,7 +131,12 @@ function App() {
         <FRPARENTINPUT/>
 
         {/* Fragments */}
+        {/* Example 1 */}
         <FragmentDemo/>
+
+        {/* Example 2 */}
+        <Tables/>
+
     </div>
   );
 }
